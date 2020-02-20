@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Lato";
+    src: url(./fonts/Lato/Lato-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+width: 1020px;
+margin: 0 auto;
+}
+
+li {
+    font-family: "Lato";
+    display: inline-block;
+    list-style: none;
+    color: white;
+    font-size: 9px;
+    padding: 0 10px 0 0;
+}
+
+.header {
+    width: 1020px;
+    height: 89px;
+    background-color: #2d303a;
+}
+
+.HLine {
+    width: 1020px;
+    height: 6px;
+    background-color: #323746;
+}
+
+.header__navigation {
+    position: absolute;
+    margin: 45px 31px 27px 609px;
+}
+
+.Logo {
+    position: absolute;
+    padding: 34px 0 0 30px; 
+    font-size: 25px;
+    line-height: 6px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: left;
+}
+
+.slider {
+    width: 1020px;
+    height: 600px;
+    background-color: #f06c64;
+}
+
+.SLine {
+    width: 1020px;
+    height: 15px;
+    background-color: #ea676b;
+}
+
+.our_services {
+    width: 1020px;
+height: 495px;
+background-color: #f2f2f2;
+}
+
+.OSLine {
+    width: 1020px;
+    height: 6px;
+    background-color: #ffffff;
+}
+
+.Red {
+    color: red;
+}
