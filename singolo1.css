@@ -45,6 +45,8 @@ li {
     color: white;
 }
 
+/*Header*/
+
 .header {
     width: 1020px;
     height: 89px;
@@ -73,24 +75,12 @@ li {
     font-weight: normal;
 }
 
+/*Slider*/
+
 .slider {
     width: 1020px;
     height: 594px;
     background-color: #f06c64;
-}
-
-.iPhone_Vertical {
-    width: 215px;
-    height: 458px;
-    border-radius: 27px;
-    margin: 52px 0 0 111px;
-}
-
-.iPhone_Horizontal {
-    width: 458px;
-    height: 215px;
-    border-radius: 27px;
-    margin: -176px 0 0 425px;
 }
 
 .SLine {
@@ -98,6 +88,36 @@ li {
     height: 6px;
     background-color: #ea676b;
 }
+
+.iPhone_Vertical {
+    position: absolute;
+    width: 240px;
+    height: 483px;
+    border-radius: 27px;
+    margin: 53px 0 0 112px;
+}
+
+.iPhone_Horizontal {
+    position: absolute;
+    width: 484px;
+    height: 240px;
+    border-radius: 27px;
+    margin: 174px 0 0 425.5px;
+}
+
+.arrow__right {
+    position: absolute;
+    margin: 281px 0 0 964.5px;
+  cursor: pointer;
+}
+
+.arrow__left {
+    position: absolute;
+    margin: 281px 0 0 42px;
+  cursor: pointer;
+}
+
+/*Our Services*/
 
 .our_services {
     width: 1020px;
