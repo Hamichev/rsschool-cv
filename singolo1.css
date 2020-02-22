@@ -1,22 +1,48 @@
 @font-face {
-    font-family: "Lato";
-    src: url(./fonts/Lato/Lato-Regular.ttf);
+    font-family: "Lato Bold";
+    src: url(./fonts/Lato/Lato-Bold.ttf) format('truetype'); 
     font-style: normal;
     font-weight: normal;
 }
 
+@font-face {
+    font-family: "Lato Regular";
+    src: url(./fonts/Lato/Lato-Regular.ttf) format('truetype'); 
+    font-style: normal;
+    font-weight: normal;
+}
+
+
 body {
 width: 1020px;
+font-family: "Lato Regular", "Lato Bold", "New Time Roman" ;
 margin: 0 auto;
 }
 
-li {
-    font-family: "Lato";
-    display: inline-block;
+span.point:after {
+    content: '\00B7';
+    padding: 0 14px;
+    color: #494E62;
+}
+
+.menu {
+    margin: 0;
+    float: left;
     list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    float: left;
+    list-style: none;
+    font-size: 0.75em;
+    letter-spacing: -0.02em;
     color: white;
-    font-size: 9px;
-    padding: 0 10px 0 0;
 }
 
 .header {
@@ -32,30 +58,44 @@ li {
 }
 
 .header__navigation {
-    position: absolute;
-    margin: 45px 31px 27px 609px;
+    
+    margin: -30.5px 31px 27px 609.5px;
 }
 
 .Logo {
-    position: absolute;
-    padding: 34px 0 0 30px; 
+    padding: 31px 0 0 40px; 
     font-size: 25px;
-    line-height: 6px;
+    line-height: 25px;
     color: #ffffff;
-    font-family: "Lato";
-    font-weight: 700;
     text-align: left;
+    letter-spacing: -0.015em;
+    font-style: normal;
+    font-weight: normal;
 }
 
 .slider {
     width: 1020px;
-    height: 600px;
+    height: 594px;
     background-color: #f06c64;
+}
+
+.iPhone_Vertical {
+    width: 215px;
+    height: 458px;
+    border-radius: 27px;
+    margin: 52px 0 0 111px;
+}
+
+.iPhone_Horizontal {
+    width: 458px;
+    height: 215px;
+    border-radius: 27px;
+    margin: -176px 0 0 425px;
 }
 
 .SLine {
     width: 1020px;
-    height: 15px;
+    height: 6px;
     background-color: #ea676b;
 }
 
@@ -71,6 +111,6 @@ background-color: #f2f2f2;
     background-color: #ffffff;
 }
 
-.Red {
-    color: red;
+.Pink {
+    color: #f06c64;
 }
